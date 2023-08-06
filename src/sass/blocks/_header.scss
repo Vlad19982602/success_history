@@ -1,0 +1,69 @@
+.logo-block {
+    display: flex;
+    align-items: center;
+}
+.logo-block__img {
+    margin-right: 18px;
+    width: 100%;
+    max-width: 210px;
+}
+.logo-block__text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    max-width: 256px;
+}
+
+
+.top-header__links-block {
+    display: inline-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 80px;
+}
+.top-header__links-block a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    line-height: 1.37;
+}
+
+
+.head-module.search {
+    margin: 0 20px 0 100px;
+}
+
+
+.search-container {
+    position: relative;
+}
+.search-button {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+
+.top-header .tel-block {
+    margin-right: 20px;
+}
+.tel-block {
+    display: inline-flex;
+    flex-direction: column;
+}
+.tel-link {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 1.39;
+    text-decoration: none;
+}
+.tel-block__city {
+    font-size: 16px;
+    line-height: 1.37;
+}

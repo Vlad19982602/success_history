@@ -1,0 +1,32 @@
+{
+  "name": "diplom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vlad19982602/success_history.git"
+  },
+  "author": "Vlad",
+  "license": "ISC",
+  "bugs": {
+    "url": "git+https://github.com/Vlad19982602/success_history/issues"
+  },
+  "homepage": "https://github.com/Vlad19982602/success_history#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.11",
+    "core-js": "^3.29.1",
+    "gulp": "^4.0.2",
+    "sass": "^1.58.0",
+    "webpack": "^5.76.2",
+    "webpack-stream": "^7.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}

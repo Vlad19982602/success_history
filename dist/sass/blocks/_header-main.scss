@@ -1,0 +1,64 @@
+.header-main-menu {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+}
+.header-main-menu__list, .header-main-menu__list ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header-main-menu__list ul {
+    margin-left: 0;
+}
+.header-main-menu__list ul > li {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.header-main-menu__item {
+    list-style-type: none;
+    margin-left: 50px;
+}
+.header-main-menu__link {
+    position: relative;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.header-main-menu__contacts {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+	transition: 0.3s;
+}
+.header-main-menu__contacts-link {
+    position: relative;
+    text-decoration: none;
+    margin-left: 13px;
+    font-size: 13px;
+}
+.header-main-menu__age-ico {
+    margin-left: 15px;
+}
+.header-main-menu__contacts-link_eye {
+    height: 26px;
+}
+.header-main-menu__contacts-link {
+    position: relative;
+    text-decoration: none;
+    margin-left: 13px;
+    font-size: 15px;
+}
+.header-main-menu__contacts-link:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    transition: .3s;
+    background: $main-color;
+}
