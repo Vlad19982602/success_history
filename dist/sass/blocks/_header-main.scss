@@ -52,13 +52,3 @@
     margin-left: 13px;
     font-size: 15px;
 }
-.header-main-menu__contacts-link:after {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    transition: .3s;
-    background: $main-color;
-}
