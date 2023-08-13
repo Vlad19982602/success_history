@@ -57,3 +57,16 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
+.pagination-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pagination-wrap .success-story-btn-section.desktop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

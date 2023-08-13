@@ -1,0 +1,153 @@
+.student-form-section {
+    background: $main-color;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 24px 50px 30px;
+    color: #fff;
+}
+
+.student-form .invalid {
+    background-color: red;
+    border: 2px solid #fff;
+}
+.student-form [type=checkbox].invalid {
+    background: none;
+    border: none;
+}
+
+.form-row {
+    display: flex;
+    margin-left: -25px;
+    justify-content: center;
+}
+
+.student-form .form-row {
+    max-width: 815px;
+    margin: 0 auto;
+}
+
+.form-input {
+    line-height: inherit;
+    border: none;
+    height: 43px;
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.form-col {
+    position: relative;
+    width: 100%;
+    max-width: 352px;
+    margin-left: 25px;
+    margin-bottom: 0;
+    flex-basis: 100%;
+}
+
+.form-file__label, .form-input {
+    width: 75%;
+    background-color: #fff;
+    color: #2b2b2b;
+    border: 1px solid #000;
+    height: 56px;
+    padding: 0 36px 0 20px;
+}
+
+.student-form .form-row.checkbox-row {
+    margin: 20px auto 0;
+}
+
+.checkbox {
+    padding-left: 30px;
+    position: relative;
+    display: inline-block;
+    min-height: 25px;
+}
+
+.checkbox__input {
+    background: #fff;
+    border: 1px solid #000;
+    left: 0;
+    top: 0.1em;
+    width: 20px;
+    z-index: 2;
+    cursor: pointer;
+    outline: none;
+}
+
+[type=checkbox], [type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.checkbox__emulator {
+    position: absolute;
+    left: 30px;
+    top: 1px;
+    width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-align: center;
+    z-index: 1;
+    -webkit-transition: .2s;
+    transition: .2s;
+    background: #fff;
+    border: 1px solid #000;
+}
+.modal__body .checkbox__emulator {
+	left: 0;
+}
+
+.student-form .checkbox__label {
+    display: inline;
+    color: #000;
+}
+
+.checkbox__label {
+    font-size: 18px;
+    line-height: 1.39;
+    display: block;
+}
+
+.student-form .checkbox .form-details {
+    display: inline;
+}
+.form-details {
+    margin-top: 22px;
+    display: inline-block;
+    margin-bottom: 11px;
+}
+
+.checkbox__emulator .i-icon {
+    position: absolute;
+    left: 8px;
+    width: 10px;
+    height: 10px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
+    margin: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+.i-icon {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+}
+.checkbox__input:checked+.checkbox__emulator .i-icon {
+    transform: scale(2.8);
+}
+
+[type=submit], button, input, select, textarea {
+    appearance: none;
+    border-radius: 0;
+    font-family: inherit;
+}

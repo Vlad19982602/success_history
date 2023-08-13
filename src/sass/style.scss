@@ -10,6 +10,7 @@
 @import 'blocks/wide-menu';
 @import 'blocks/success-stories';
 @import 'blocks/btn';
+@import 'blocks/student-form';
 
 figcaption {
     font-size: 16px;
@@ -89,6 +90,10 @@ ol > li, ul > li {
 }
 nav li, ol, ul {
     list-style-type: none;
+}
+
+button, input, optgroup, select, textarea {
+    line-height: inherit;
 }
 
 
@@ -176,6 +181,12 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+.h2, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
 
 .main-container {
     position: relative;
@@ -192,4 +203,17 @@ figcaption, figure, main {
     flex: 1 0 auto;
     min-height: 0;
     background: #fff;
+}
+
+.success-preview .btn {
+    flex-grow: 1;
+}
+
+.btn span {
+    display: block;
+    padding: inherit;
+}
+
+.btn.btn-flex {
+    flex-grow: 0;
 }

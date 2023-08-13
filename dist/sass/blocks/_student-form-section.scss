@@ -1,0 +1,53 @@
+.student-form-section {
+    background: $main-color;
+    text-align: center;
+    margin-bottom: 0;
+    padding: 24px 50px 30px;
+    color: white;
+}
+
+.student-form .form-row {
+    max-width: 815px;
+    margin: 0 auto;
+}
+.form-row:not(:last-child) {
+    margin-bottom: 24px;
+}
+.form-row {
+    display: flex;
+    margin-left: -25px;
+    justify-content: center;
+}
+
+.form-col {
+    position: relative;
+    width: 100%;
+    max-width: 352px;
+    margin-left: 25px;
+    margin-bottom: 0;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+.form-input {
+    line-height: inherit;
+    border: none;
+    height: 43px;
+    margin: 5px 0;
+    padding: 8px;
+}
+.student-form__input {
+    line-height: inherit;
+    border: none;
+    height: 43px;
+    margin: 5px 0;
+    padding: 8px;
+}
+.form-file__label, .form-input {
+    width: 100%;
+    background-color: #fff;
+    color: #2b2b2b;
+    border: 1px solid #000;
+    height: 56px;
+    padding: 0 36px 0 20px;
+}

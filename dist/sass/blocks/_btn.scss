@@ -11,8 +11,6 @@
     text-align: center;
     width: 100%;
     max-width: 168px;
-    height: -webkit-max-content;
-    height: -moz-max-content;
     height: max-content;
     min-height: 37px;
     padding: 7px 17px;
@@ -24,4 +22,49 @@
 	background-color: transparent;
 	color: $main-color;
 	border-color: $main-color;
+}
+
+//.btn_light_for-bg_anim:hover {
+ //    background: rgba(0,0,0,0);
+//    border: 2px solid #fff !important;
+//}
+
+.btn.btn_orange {
+    color: $main-color;
+    border: 1px solid $main-color;
+}
+.btn_biger {
+    max-width: 464px;
+}
+
+.btn_orange:hover {
+    background-color: $main-color;
+	color: white;
+	border-color: $main-color;
+}
+
+.student-form button {
+    display: block;
+    width: 100%;
+}
+//.btn_light_for-bg_anim {
+//    max-width: 224px;
+//    border: 2px solid #fff !important;
+//    color: #fff;
+//    font-weight: 700;
+//}
+
+//.btn_light_for-bg_anim:after {
+ //   transition-duration: .3s;
+ //   content: "";
+// //   background: url('../../img/download-arrow-o-b.svg') center center/cover no-repeat;
+//   opacity: 0;
+//    transform: translateX(13px);
+//}
+
+.btn.btn_black {
+    color: white;
+    border: none;
+    background: black;
+    padding: 10px;
 }
